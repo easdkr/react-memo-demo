@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "lib": ["DOM", "ESNext"],
+        "jsx": "preserve",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        // "baseUrl": "./src",
+        "types": ["node", "react/next", "react-dom/next", "jest"],
+        "allowJs": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "exclude": ["node_modules"],
+    "include": ["**/*.ts", "**/*.tsx", "src", "jest.config.js"]
+}
